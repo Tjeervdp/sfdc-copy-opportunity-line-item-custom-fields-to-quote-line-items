@@ -85,7 +85,15 @@ private class QuoteLineItemTriggerHandlerTest {
         update qli;
         delete qli;
 
-        Test.stopTest();
+
+
+
+	fieldMapping.name = 'hi';
+        update fieldMapping;
+        delete fieldMapping;
+        
+
+	Test.stopTest();
 
     }
 
